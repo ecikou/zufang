@@ -1,6 +1,10 @@
 <template>
 <div>
-    <router-view></router-view>
+<van-nav-bar
+      title="地图找房"
+      left-arrow
+      @click-left=" $router.back()"
+    />
 </div>
 </template>
 
@@ -18,6 +22,6 @@ export default {
 }
 </script>
 
-<style scoped lang='less'>
+<style scoped>
 
 </style>

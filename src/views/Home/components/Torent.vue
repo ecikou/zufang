@@ -1,12 +1,12 @@
 <template>
-<div>
-    <router-view></router-view>
-</div>
+  <div>
+    <NavBar title="地图找房"></NavBar>
+  </div>
 </template>
 
 <script>
 export default {
-  created () {},
+  created () { },
   data () {
     return {}
   },
@@ -18,6 +18,5 @@ export default {
 }
 </script>
 
-<style scoped lang='less'>
-
+<style scoped>
 </style>
